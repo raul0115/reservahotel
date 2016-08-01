@@ -26,17 +26,14 @@
           <Group type="102" attributes="0">
               <EmptySpace max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Group type="102" alignment="0" attributes="0">
-                      <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
-                  </Group>
+                  <Component id="jLabel1" alignment="0" min="-2" max="-2" attributes="0"/>
                   <Group type="102" alignment="0" attributes="0">
                       <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
                       <Component id="jPanel2" max="32767" attributes="0"/>
                   </Group>
               </Group>
-              <EmptySpace max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -45,7 +42,7 @@
           <Group type="102" alignment="0" attributes="0">
               <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
               <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
-              <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" max="-2" attributes="0">
                   <Component id="jPanel2" max="32767" attributes="0"/>
                   <Component id="jPanel1" max="32767" attributes="0"/>
@@ -128,20 +125,20 @@
                                   </Group>
                               </Group>
                               <Group type="102" alignment="0" attributes="0">
-                                  <Group type="103" groupAlignment="1" attributes="0">
-                                      <Component id="jButton1" min="-2" max="-2" attributes="0"/>
-                                      <Component id="jLabel8" min="-2" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="btnnuevo" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel8" alignment="0" min="-2" max="-2" attributes="0"/>
                                   </Group>
                                   <Group type="103" groupAlignment="0" attributes="0">
                                       <Group type="102" attributes="0">
-                                          <EmptySpace min="-2" pref="60" max="-2" attributes="0"/>
-                                          <Component id="cbotipo_habitacion" max="32767" attributes="0"/>
-                                      </Group>
-                                      <Group type="102" alignment="0" attributes="0">
                                           <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
-                                          <Component id="jButton2" min="-2" max="-2" attributes="0"/>
+                                          <Component id="btnguardar" min="-2" max="-2" attributes="0"/>
                                           <EmptySpace max="32767" attributes="0"/>
-                                          <Component id="jButton3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="btncancelar" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" attributes="0">
+                                          <EmptySpace max="32767" attributes="0"/>
+                                          <Component id="cbotipo_habitacion" min="-2" pref="164" max="-2" attributes="0"/>
                                       </Group>
                                   </Group>
                               </Group>
@@ -201,11 +198,11 @@
                       <Component id="jLabel8" min="-2" max="-2" attributes="0"/>
                       <Component id="cbotipo_habitacion" min="-2" max="-2" attributes="0"/>
                   </Group>
-                  <EmptySpace pref="89" max="32767" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
-                      <Component id="jButton1" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="jButton2" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="jButton3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="btnnuevo" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="btnguardar" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="btncancelar" alignment="3" min="-2" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace max="-2" attributes="0"/>
               </Group>
@@ -334,24 +331,33 @@
             <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
           </AuxValues>
         </Component>
-        <Component class="javax.swing.JButton" name="jButton1">
+        <Component class="javax.swing.JButton" name="btnnuevo">
           <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="33" green="33" red="33" type="rgb"/>
+            </Property>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
               <Image iconType="3" name="/Files/nuevo.GIF"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Nuevo"/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JButton" name="jButton2">
+        <Component class="javax.swing.JButton" name="btnguardar">
           <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="33" green="33" red="33" type="rgb"/>
+            </Property>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
               <Image iconType="3" name="/Files/guardar.png"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Guardar"/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JButton" name="jButton3">
+        <Component class="javax.swing.JButton" name="btncancelar">
           <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="33" green="33" red="33" type="rgb"/>
+            </Property>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
               <Image iconType="3" name="/Files/cancelar.png"/>
             </Property>
@@ -375,15 +381,42 @@
       <Layout>
         <DimensionLayout dim="0">
           <Group type="103" groupAlignment="0" attributes="0">
-              <Component id="jScrollPane3" alignment="0" pref="470" max="32767" attributes="0"/>
+              <Component id="jScrollPane3" alignment="0" max="32767" attributes="0"/>
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jLabel9" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Component id="jTextField1" min="-2" pref="138" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                  <Component id="btnbuscar" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="btneliminar" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="btnsalir" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace pref="12" max="32767" attributes="0"/>
+              </Group>
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  <Component id="lbltotalregistros" min="-2" max="-2" attributes="0"/>
+              </Group>
           </Group>
         </DimensionLayout>
         <DimensionLayout dim="1">
           <Group type="103" groupAlignment="0" attributes="0">
               <Group type="102" alignment="1" attributes="0">
-                  <EmptySpace max="32767" attributes="0"/>
-                  <Component id="jScrollPane3" min="-2" pref="313" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel9" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jTextField1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="btnbuscar" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="btneliminar" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="btnsalir" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="37" max="32767" attributes="0"/>
+                  <Component id="jScrollPane3" min="-2" pref="401" max="-2" attributes="0"/>
                   <EmptySpace max="-2" attributes="0"/>
+                  <Component id="lbltotalregistros" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
@@ -410,6 +443,60 @@
             </Component>
           </SubComponents>
         </Container>
+        <Component class="javax.swing.JLabel" name="jLabel9">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Buscar:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="jTextField1">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextField1ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnbuscar">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="33" green="33" red="33" type="rgb"/>
+            </Property>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/Files/buscar.png"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Buscar"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnbuscarActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="btneliminar">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="33" green="33" red="33" type="rgb"/>
+            </Property>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/Files/eliminar.png"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Eliminar"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnsalir">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="33" green="33" red="33" type="rgb"/>
+            </Property>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/Files/salir.gif"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Salir"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnsalirActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lbltotalregistros">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Registros"/>
+          </Properties>
+        </Component>
       </SubComponents>
     </Container>
   </SubComponents>
